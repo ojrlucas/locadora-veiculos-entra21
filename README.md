@@ -15,9 +15,9 @@ Sistema de gerenciamento de uma locadora de veículos, desenvolvido em **Java** 
 - Separação em camadas: Entidades, DAO, Conexão, Main
 
 ---
-
 ## 🗃️ Estrutura do Banco de Dados
 
+```sql
 CREATE DATABASE db_locadora;
 
 CREATE TABLE tb_clientes (
@@ -49,10 +49,6 @@ CREATE TABLE tb_locacoes (
     FOREIGN KEY (cliente_id) REFERENCES tb_clientes(id),
     FOREIGN KEY (veiculo_id) REFERENCES tb_veiculos(id)
 );
-
---
-
-## 🔄 Procedures SQL
 
 DELIMITER //
 
