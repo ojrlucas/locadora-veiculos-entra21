@@ -15,7 +15,7 @@ Sistema de gerenciamento de uma locadora de veículos, desenvolvido em **Java** 
 - Separação em camadas: Entidades, DAO, Conexão, Main
 
 ---
-## 🗃️ Estrutura do Banco de Dados
+## 🗃️ Banco de Dados
 
 ```sql
 CREATE DATABASE db_locadora;
